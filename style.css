@@ -1,0 +1,46 @@
+.texti {
+    width: 315px;
+    height: 45px;
+    margin-top: 12px;
+    margin-left: 9px;
+    border-radius: 10px;
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+.texti::placeholder {
+    font-weight: 500px;
+    font-size: 16px;
+    color: rgba(158, 158, 158, 1);
+}
+.pass {
+    width: 467px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 0, 0, 1);
+    background-color: rgba(97, 0, 0, 1);
+    color: rgba(240, 114, 114, 1);
+}
+
+.number {
+    width: 541px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgba(168, 171, 0, 1);
+}
+.number::placeholder {
+    color: rgba(168, 171, 0, 1);
+    font-weight: 500px;
+    font-size: 16px;
+}
+.rame {
+    width: 315px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid rgba(249, 254, 3, 1);
+    background-color: rgba(41, 40, 40, 1);
+    caret-color: white;
+}
+.rame::placeholder {
+    color: rgba(249, 254, 3, 1);
+    font-weight: 500px;
+    font-size: 16px;
+}
